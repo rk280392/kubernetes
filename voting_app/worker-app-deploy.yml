@@ -14,7 +14,7 @@ spec:
         template:
                 metadata:
                         name: worker-app-pod
-                        label:
+                        labels:
                                 name: worker-app-pod
                                 app: demo-voting-app
                 spec:
