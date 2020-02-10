@@ -13,7 +13,7 @@ spec:
                         app: demo-voting-app
         template:
                 metadata:
-                        name: postgres-voting-pod
+                        name: postgres-app-pod
                         labels:
                                 name: postgres-app-pod
                                 app: demo-voting-app
